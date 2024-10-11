@@ -1,0 +1,78 @@
+body{
+    background-color:aliceblue;
+    width: 100%;
+    margin:0 auto;
+}
+div{
+    float: left;
+}
+header{
+    width: 90%;
+    height: 90px;
+    background-color: white;
+    margin: 40px auto;
+    border-radius: 25px;
+    box-shadow: 3.2px 3.2px 24px 0px rgba(0, 0, 0, 0.05);
+
+}
+.logo{
+    width: 25%;
+    height: 100%;
+
+}
+.navigation{
+    width: 55%;
+    height: 100%;
+    
+}
+.button{
+    width: 20%;
+    height: 100%;
+    
+}
+.logo a{
+    color: black;
+    margin: 0 10%;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 80px;
+
+}
+.navbar ul{
+    margin: 0;
+    line-height: 80px;
+    float: right;
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    color: black;
+    text-decoration:none ;
+    padding: 15px;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.navbar a:hover{
+    color: #55BDB3;
+    font-size: 17px; 
+}
+.btn.order{
+    color: white;
+    background-color: #55BDB3;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 80px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.btn.login{
+    color: #55BDB3;
+    border: 1px solid #55BDB3;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 80px;
+    margin: 0 10px;
+    border-radius: 10px;
+
+}
